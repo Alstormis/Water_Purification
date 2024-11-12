@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="icon">
+    <file>close.png</file>
+    <file>loupe.png</file>
+    <file>editing.png</file>
+  </qresource>
+</RCC>

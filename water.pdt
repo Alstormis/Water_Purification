@@ -1,0 +1,252 @@
+version = 0
+sysroot = ""
+sysroots_dir = "main"
+parts = []
+
+[Application]
+entry_point = ""
+is_console = true
+is_bundle = true
+name = "water"
+qmake_configuration = ""
+script = "src\\app\\forms\\mainwindows.py"
+syspath = ""
+
+[Application.Package]
+name = "src"
+exclude = [ "*.pyc", "*.pyd", "*.pyo", "*.pyx", "*.pxi", "__pycache__", "*-info", "EGG_INFO", "*.so",]
+[[Application.Package.Content]]
+name = "app"
+included = true
+is_directory = true
+[[Application.Package.Content.Content]]
+name = "DB"
+included = true
+is_directory = true
+[[Application.Package.Content.Content.Content]]
+name = "__init__.py"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content]]
+name = "conversion.py"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content]]
+name = "DB_func.py"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content]]
+name = "DB_value.py"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content]]
+name = "models.py"
+included = true
+is_directory = false
+
+
+[[Application.Package.Content.Content]]
+name = "forms"
+included = true
+is_directory = true
+[[Application.Package.Content.Content.Content]]
+name = "__init__.py"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content]]
+name = "add_characteristic.py"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content]]
+name = "add_consumption.py"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content]]
+name = "add_device.py"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content]]
+name = "add_substance.py"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content]]
+name = "add_water_right.py"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content]]
+name = "add_waters.py"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content]]
+name = "color_menu.py"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content]]
+name = "completion.py"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content]]
+name = "conversion.py"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content]]
+name = "database.db"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content]]
+name = "mainwindows.py"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content]]
+name = "water (2).xlsx"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content]]
+name = "water Ч копи€.xlsx"
+included = true
+is_directory = false
+
+
+[[Application.Package.Content.Content]]
+name = "ui"
+included = true
+is_directory = true
+[[Application.Package.Content.Content.Content]]
+name = "characteristic.py"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content]]
+name = "characteristic.ui"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content]]
+name = "color.py"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content]]
+name = "color.ui"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content]]
+name = "device.py"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content]]
+name = "device.ui"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content]]
+name = "mainWindows.py"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content]]
+name = "mainWindows.ui"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content]]
+name = "resources"
+included = true
+is_directory = true
+[[Application.Package.Content.Content.Content.Content]]
+name = "close.png"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content.Content]]
+name = "editing.png"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content.Content]]
+name = "icons.qrc"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content.Content]]
+name = "icons_rc.py"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content.Content]]
+name = "loupe.png"
+included = true
+is_directory = false
+
+
+[[Application.Package.Content.Content.Content]]
+name = "small_division_expenditure.py"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content]]
+name = "small_division_expenditure.ui"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content]]
+name = "substance.py"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content]]
+name = "substance.ui"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content]]
+name = "substance_right.py"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content]]
+name = "substance_right.ui"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content]]
+name = "type_water.py"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content]]
+name = "type_water.ui"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content]]
+name = "type_water_right.py"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content]]
+name = "type_water_right.ui"
+included = true
+is_directory = false
+
+
+
